@@ -258,7 +258,8 @@
       }
 
       vm.runtime.isProjectPermissionManagerDisabled = true;
-      
+      vm.runtime.extensionRuntimeOptions.javascriptUnsandboxed = true;
+
     } catch (e) {
       handleError(e);
     }
